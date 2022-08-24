@@ -49,7 +49,6 @@ class AppCubit extends Cubit<AppStates> {
     }
     if (indix == 2) {
       await getProducts(ctx:  context);
-      await getUser(ctx: context);
     }
      if (indix == 3) {
       await getUser(ctx:  context);
@@ -79,12 +78,7 @@ class AppCubit extends Cubit<AppStates> {
         if(onError is DioError){
         print("onError.message "+onError.message);
         if(onError.message=="Http status error [401]"){
-           showDialog(
-              context: ctx,
-              builder: (context){
-                return logOut(context,text: "you must logout");
-              }
-            );
+          
         }else{
           buildToast(ctx,"Network Erorr");
         }
