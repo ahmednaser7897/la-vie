@@ -8,18 +8,23 @@ Founded in 2020, La Vie has come a long way from its beginnings in a  home offic
 
 I will explain the features of the program that I made
 
-the app is responsive
+###the app is responsive
+
 You can scan the qr code of a product to see its data ( you can try with this qr)
 ![othello](https://github.com/ahmednaser7897/la-vie/blob/main/qr-code.png)
 You can see  recently search in home search (used SharedPreferences)
 You can save product  in your cart  (used sqflite)
 
 You can search in posts
+
 you can add and remove like or comment to post 
+
 you can add post
 
 you can see notifications ,blogs , products ,profile
+
 you can Update your data
+
 You can take a weekly exam and get points
 
 you can signin ,signup ,reset password ,loge in with google
