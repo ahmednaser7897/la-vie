@@ -69,7 +69,6 @@ Widget logOut(ctx, {String? text}) {
       TextButton(
           onPressed: () async {
             await cubit.logeout();
-            await cubit.changBottomBarIndix(2, ctx);
             Navigator.push(
                 ctx, MaterialPageRoute(builder: (context) => const LogIn()));
           },

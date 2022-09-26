@@ -2,7 +2,7 @@
 class Forums {
   String? type;
   String? message;
-  List<Forum>? forum;
+  List<Forum>? forum=[];
 
   Forums({this.type, this.message, this.forum});
 

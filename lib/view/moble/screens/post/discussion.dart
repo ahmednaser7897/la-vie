@@ -29,7 +29,7 @@ class _DiscussionForumsState extends State<DiscussionForums> {
         AppCubit cubit = AppCubit.get(context);
         print("cubit.forums is "+cubit.forums.toString());
         return Scaffold(  
-          body: (cubit.forums == null || cubit.myForums == null)
+          body: (cubit.forums == null || cubit.myForums == null ||cubit.user==null)
               ? const Center(
                   child: CircularProgressIndicator(),
                 )

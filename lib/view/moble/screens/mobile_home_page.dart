@@ -35,12 +35,12 @@ class _MobileHomePageState extends State<MobileHomePage> {
               items: <Widget>[
                 Image(
                   image: const AssetImage(
-                      "assets/images/mobile/bottombar/leave 1 (Traced).png"),
+                      "assets/images/mobile/bottombar/leave.png"),
                   color: cubit.indix == 0 ? Colors.white : Colors.black,
                 ),
                 Image(
                   image: const AssetImage(
-                      "assets/images/mobile/bottombar/qr-code-scan 1 (Traced).png"),
+                      "assets/images/mobile/bottombar/qr.png"),
                   color: cubit.indix == 1 ? Colors.white : Colors.black,
                 ),
                 Image(

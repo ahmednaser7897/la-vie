@@ -31,7 +31,7 @@ class PlantDetails extends StatelessWidget {
             decoration: const BoxDecoration(
                 image: DecorationImage(
                     image: AssetImage(
-                        "assets/images/mobile/Meet the Maker_ Nathalie Gibbins _ Rose & Grey 1.png"),
+                        "assets/images/mobile/test.png"),
                     fit: BoxFit.cover)),
             child: Container(
               color: Colors.black.withOpacity(0.4),
@@ -43,7 +43,7 @@ class PlantDetails extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        dataItem("assets/images/mobile/temperatures/sun (3) 2.png",
+                        dataItem("assets/images/mobile/temperatures/sun.png",
                         "Sun light",
                         "%",
                         plant.sunLight!
@@ -51,7 +51,7 @@ class PlantDetails extends StatelessWidget {
                         const SizedBox(
                           height: 20,
                         ),
-                        dataItem("assets/images/mobile/temperatures/image 81 (Traced).png",
+                        dataItem("assets/images/mobile/temperatures/image.png",
                         "Water Capacity",
                         "%",
                         plant.waterCapacity!
@@ -59,7 +59,7 @@ class PlantDetails extends StatelessWidget {
                         const SizedBox(
                           height: 20,
                         ),
-                       dataItem("assets/images/mobile/temperatures/thermometer (1) 2.png",
+                       dataItem("assets/images/mobile/temperatures/thermometer.png",
                         "Temperature",
                         "◌",
                         plant.temperature!,

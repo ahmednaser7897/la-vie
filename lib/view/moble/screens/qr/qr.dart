@@ -71,7 +71,7 @@ class _QRViewPlantsState extends State<QRViewPlants> {
             decoration: const BoxDecoration(
                 image: DecorationImage(
                     image: AssetImage(
-                        "assets/images/mobile/Meet the Maker_ Nathalie Gibbins _ Rose & Grey 1.png"),
+                        "assets/images/mobile/test.png"),
                     fit: BoxFit.cover)),
             child: Container(
               color: Colors.black.withOpacity(0.4),
@@ -90,14 +90,16 @@ class _QRViewPlantsState extends State<QRViewPlants> {
                       child: Stack(
                         alignment: Alignment.center,
                         children: [
-                          Image.asset(
-                            "assets/images/mobile/Rectangle 75.png",
-                            width: SizeConfig.screenWidth * 0.6,
-                          ),
+                         
                           Text("Click Here To Scan",
                               style: AppTexeStyle.title.copyWith(
                                 color: Colors.white,
                               )),
+                           Image.asset(
+                            "assets/images/mobile/Rectangle75.png",
+                            width: SizeConfig.screenWidth * 0.6,
+                            color: Colors.amber,
+                          ),
                         ],
                       )),
                   if (cubit.productId != null)

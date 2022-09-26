@@ -85,6 +85,7 @@ flutter:
   assets:
     - assets/images/common/
     - assets/images/mobile/
+    - assets/images/mobile/Rectangle75.png
     - assets/images/mobile/bottombar/
     - assets/images/mobile/temperatures/
     - assets/images/web/

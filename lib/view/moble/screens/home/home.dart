@@ -78,8 +78,8 @@ class _HomeState extends State<Home> {
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: InkWell(
-                            onTap: () {
-                              
+                            onTap: () async { 
+                              await cubit.getUser(ctx: context);
                               Navigator.push(
                                   context,
                                   MaterialPageRoute(
