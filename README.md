@@ -1,16 +1,33 @@
 # le_vie_app
 
-A new Flutter project.
+Welcome to La Vie, your number one source for planting. We're dedicated to giving you the very best of plants, with a focus on dependability, customer service and uniqueness.
+Founded in 2020, La Vie has come a long way from its beginnings in a  home office our passion for helping people and give them some advices about how to plant and take care of plants. We now serve customers all over Egypt, and are thrilled to be a part of the eco-friendly wing 
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+I will explain the features of the program that I made
 
-A few resources to get you started if this is your first Flutter project:
+###the app is responsive
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+You can scan the qr code of a product to see its data ( you can try with this qr)
+![othello](https://github.com/ahmednaser7897/la-vie/blob/main/qr-code.png)
+You can see  recently search in home search (used SharedPreferences)
+You can save product  in your cart  (used sqflite)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You can search in posts
+
+you can add and remove like or comment to post 
+
+you can add post
+
+you can see notifications ,blogs , products ,profile
+
+you can Update your data
+
+You can take a weekly exam and get points
+
+you can signin ,signup ,reset password ,loge in with google
+
+if you get Network Erorr it is Network Erorr or servers Erorr[500 or 501 ...]
+
